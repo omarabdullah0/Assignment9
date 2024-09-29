@@ -85,7 +85,7 @@ body {
     .photo-calc {
         position: absolute;
         top: 35%;
-        right: 13%;
+        right: 50%;
     }
 }
 
@@ -137,6 +137,15 @@ hr {
     margin: 20px 0;
 
 }
+@media (max-width: 768px) {
+    hr {
+        width: 100%;
+        color: #00000061;
+        margin: 20px 0;
+    
+    }
+}
+
 
 .attribution {
     font-size: 11px;
