@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="date-input">
+      <div class="input-group">
+        <label for="day" id="day-label">DAY</label>
+        <input type="text" id="day" placeholder="DD">
+        <span id="day-error" class="error-message"></span><br>
+      </div>
+
+      <div class="input-group">
+        <label for="month" id="month-label">MONTH</label>
+        <input type="text" id="month" placeholder="MM">
+        <span id="month-error" class="error-message"></span><br>
+      </div>
+
+      <div class="input-group">
+        <label for="year" id="year-label">YEAR</label>
+        <input type="text" id="year" placeholder="YYYY">
+        <span id="year-error" class="error-message"></span><br>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="photo-calc">
+      <img src="assets/images/icon-arrow.svg" alt="حساب العمر" id="calculate-age">
+
+    </div>
+
+    <div class="countdown">
+      <div class="years"><span class="dash">- -</span> years</div>
+      <div class="months"><span class="dash">- -</span> months</div>
+      <div class="days"><span class="dash">- -</span> days</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

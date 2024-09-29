@@ -1,0 +1,162 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 525px;
+    height: auto;
+    border-radius: 20px 20px 104px 20px;
+}
+
+.date-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: #00000061;
+    display: block;
+
+}
+
+.input-group input {
+    height: 29px;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #00000061;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px;
+}
+
+#calculate-age {
+    background-color: #743cd0;
+    position: absolute;
+    top: 32%;
+    right: 25%;
+    border-radius: 37px;
+    width: 40px;
+    border: 14px solid #743cd0;
+}
+
+.photo-calc img {
+    width: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .photo-calc img {
+        width: 40px;
+        cursor: pointer;
+    }
+}
+
+
+.photo-calc {
+    position: absolute;
+    top: 38%;
+    right: 35%;
+}
+
+@media (max-width: 800px) {
+    .photo-calc {
+        position: absolute;
+        top: 35%;
+        right: 13%;
+    }
+}
+
+.countdown {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.countdown div {
+    margin: 10px 0;
+    font-size: 70px;
+    color: #000000;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .countdown div {
+        margin: 10px 0;
+        font-size: 60px;
+        color: #000000;
+        font-weight: 800;
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+
+.countdown .dash {
+    color: #6a0dad;
+    font-size: 70px;
+    font-weight: 800;
+
+}
+
+@media (max-width: 768px) {
+    .countdown .dash {
+        color: #6a0dad;
+        font-size: 45px;
+        font-weight: 800;
+    }
+}
+
+hr {
+    width: 78%;
+    color: #00000061;
+    margin: 20px 0;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    width: 480px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    width: 174%;
+    padding: 10px;
+}
