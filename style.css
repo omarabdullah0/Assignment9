@@ -77,15 +77,15 @@ body {
 
 .photo-calc {
     position: absolute;
-    top: 36%;
-    right: 35%;
+    top: 34%;
+    right: 36%;
 }
 
 @media (max-width: 800px) {
     .photo-calc {
         position: absolute;
-        top: 35%;
-        right: 50%;
+        top: 38%;
+        right: 48%;
     }
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 hr {
-    width: 78%;
+    width: 81%;
     color: #00000061;
     margin: 20px 0;
 
